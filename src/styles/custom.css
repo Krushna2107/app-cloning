@@ -1,0 +1,73 @@
+html {
+    font-family: myriad-pro, Arial !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+h1 {
+    color: #0072c6;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.carousel-caption {
+    top: 10% !important;
+    right: 0% !important;
+    text-align: left;
+}
+
+
+.carousel-indicators {
+    bottom: 7rem;
+
+}
+
+/* .carousel-indicators [data-bs-target].active {
+    background-color: white;
+    border-color: white;
+} */
+
+
+.footer-link {
+    color: black;
+}
+
+.social-icons {
+    padding-left: 0;
+    list-style: none;
+}
+
+.social-icons li {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a svg {
+    margin-right: 8px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+}
